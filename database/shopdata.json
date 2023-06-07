@@ -1,0 +1,224 @@
+{
+    "products" : [
+        {
+            "id" : "1",
+            "product_name" : "Aurelia  Women pink kurtha Set",
+            "img" : "https://i.pinimg.com/originals/63/35/9a/63359ad8bb1529ee70b2ca687d4ff6a4.jpg",
+            "brand" : "Aurelia",
+            "price" : "799",
+            "rating" : "4.9"
+        },
+        {
+            "id" : "2",
+            "product_name" : "Aurelia women red kurtha set",
+            "img" : "https://tse3.explicit.bing.net/th?id=OIP.WwKQgTWqgJrDTldBb3QiHwHaLG&pid=Api&P=0",
+            "brand" : "W",
+            "price" : "999",
+            "rating" : "4.8"
+        },
+        {
+            "id" : "3",
+            "product_name" : "Soch women black kurtha Set",
+            "img" : "https://www.empresspitara.com/wp-content/uploads/2020/07/EMPRESSPITARA_06-128_1.jpg",
+            "brand" : "Ritu kumar",
+            "price" : "799",
+            "rating" : "4.2"
+        },
+        {
+            "id" : "4",
+            "product_name" : "Biba women yellow kurtha set",
+            "img" : "https://tse1.mm.bing.net/th?id=OIP.JRiuN95aGP7IzgBqH3Mx8wHaJ4&pid=Api&P=0",
+            "brand" : "Aurelia",
+            "price" : "899",
+            "rating" : "4.1"
+        },
+        {
+            "id" : "5",
+            "product_name" : "karigari women brown kurtha",
+            "img" : "https://i.pinimg.com/originals/63/35/9a/63359ad8bb1529ee70b2ca687d4ff6a4.jpg",
+            "brand" : "Karigari",
+            "price" : "499",
+            "rating" : "3.9"
+        },
+        {
+            "id" : "6",
+            "product_name" : "Aurelia Women pink kurtha set",
+            "img" : "https://tse1.mm.bing.net/th?id=OIP.wHq_2vKNcYaO7tQ9-X_VzQHaJQ&pid=Api&P=0",
+            "brand" : "Aurelia",
+            "price" : "499",
+            "rating" : "4.3"
+        },
+        {
+            "id" : "7",
+            "product_name" : "Libas women white kurtha Set",
+            "img" : "https://d2x02matzb08hy.cloudfront.net/img/project_photo/image/10219558/39722/Untitled_design__4_.jpg",
+            "brand" : "Libas",
+            "price" : "599",
+            "rating" : "4.9"
+        },
+        {
+            "id" : "8",
+            "product_name" : "Soch women orange kurtha set",
+            "img" : "https://d2x02matzb08hy.cloudfront.net/img/clothing/hero_image/781217858/DSC06123.jpg",
+            "brand" : "Soch",
+            "price" : "1599",
+            "rating" : "5.0"
+        },
+        {
+            "id" : "9",
+            "product_name" : "Harvard women danim blue shirt",
+            "img" : "https://tse4.mm.bing.net/th?id=OIP.xtQl6H0c6bnk3X3vHx3AIQHaHa&pid=Api&P=0",
+            "brand" : "Harvard",
+            "price" : "1009",
+            "rating" : "4.0"
+        },
+        {
+        "id" : "10",
+        "product_name" : "DressBery women brown top and blouse",
+        "img" : "https://tse3.mm.bing.net/th?id=OIP.F4vqsfgpjfUNcGG8XcxHWQHaHa&pid=Api&P=0",
+        "brand" : "DressBery ",
+        "price" : "599",
+        "rating" : "4.2"
+        },
+        {
+            "id" : "11",
+            "product_name" : "Allen solly women blue-white printed regular fit top",
+            "img" : "https://images-na.ssl-images-amazon.com/images/I/71xjp1tg6GL._UY879_.jpg",
+            "brand" : "Allen solly",
+            "price" : "1029",
+            "rating" : "4.3"
+        },
+        {
+            "id" : "12",
+            "product_name" : "Allen solly women brown regular top",
+            "img" : "https://tse1.mm.bing.net/th?id=OIP.eTe24ikTpPa_WEW1FvAlGQHaLH&pid=Api&P=0",
+            "brand" : "Allen solly",
+            "price" : "799",
+            "rating" : "4.1"
+        },
+        {
+            "id" : "13",
+            "product_name" : "Mango women red crop top",
+            "img" : "https://tse3.mm.bing.net/th?id=OIP.3tRWxcnhMo2dWFfm9gvMrQHaLH&pid=Api&P=0",
+            "brand" : "Mango",
+            "price" : "2199",
+            "rating" : "5.0"
+        },
+        {
+            "id" : "14",
+            "product_name" : "Max blue white striped tank top",
+            "img" : "https://tse3.mm.bing.net/th?id=OIP.SlNG5zUtGuqCb_PchNcjNAHaHa&pid=Api&P=0",
+            "brand" : "Harvard",
+            "price" : "299",
+            "rating" : "3.0"
+        },
+
+        {
+            "id" : "15",
+            "product_name" : "All about you women red top ",
+            "img" : "https://tse1.mm.bing.net/th?id=OIP.GQZ54pqs7_alRe3ybkI8HwHaJ3&pid=Api&P=0",
+            "brand" : "All about you",
+            "price" : "1599",
+            "rating" : "4.3"
+        },
+        {
+            "id" : "16",
+            "product_name" : "All about you women gold top ",
+            "img" : "https://cdnc.lystit.com/photos/2013/11/18/dkny-gold-shortsleeve-metallic-top-product-1-14934241-209335079.jpeg",
+            "brand" : "All about you",
+            "price" : "599",
+            "rating" : "4.4"
+        },
+        {
+            "id" : "17",
+            "product_name" : "levis women skinny-blue jeans",
+            "img" : "https://tse2.mm.bing.net/th?id=OIP.8X7CwEDH_TF-jUFJvxCM1AHaJo&pid=Api&P=0",
+            "brand" : "Levis",
+            "price" : "2599",
+            "rating" : "4.9"
+        },
+        {
+            "id" : "18",
+            "product_name" : "levis women skinny-black jeans",
+            "img" : "https://cdna.lystit.com/photos/spartoo/f6b8b82f/levis-black-Levis-710-Innovation-Super-Skinny-Womens-Skinny-Jeans-In-Black.jpeg",
+            "brand" : "Levis",
+            "price" : "2999",
+            "rating" : "5.0"
+        },
+        {
+            "id" : "19",
+            "product_name" : "Lee cooper danim black boyfriend-fit jeans",
+            "img" : "https://tse2.mm.bing.net/th?id=OIP.5SMh2mylzD1T1zpT-8oTpQHaJd&pid=Api&P=0",
+            "brand" : "Lee cooper",
+            "price" : "2099",
+            "rating" : "4.8"
+        },
+        {
+            "id" : "20",
+            "product_name" : "Puma peach colored sneakers",
+            "img" : "https://tse2.mm.bing.net/th?id=OIP.eKRYhEFo50HSzJ7jCkdhHwHaHa&pid=Api&P=0",
+            "brand" : "Puma",
+            "price" : "4599",
+            "rating" : "5.0"
+        },
+        {
+            "id" : "21",
+            "product_name" : "roadstar men blue checked shirt",
+            "img" : "https://assets.ajio.com/medias/sys_master/root/20221109/SI6r/636b8e9af997ddfdbd663ee4/-473Wx593H-461119105-blue-MODEL.jpg",
+            "brand" : "roadstar",
+            "price" : "499",
+            "rating" : "3.9"
+        },
+
+        {
+            "id" : "22",
+            "product_name" : "Allen solly men brown solid shirt",
+            "img" : "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/4/tr:w-300,/540bf1fTBH-BEZOS-MR_4.jpg",
+            "brand" : "Allen solly",
+            "price" : "1299",
+            "rating" : "4.9"
+        },
+        {
+            "id" : "23",
+            "product_name" : "Lee cooper peach colored solid shirt",
+            "img" : "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/7488102/2019/8/22/8002a744-0dad-4dbb-9481-cf0090134c3b1566454086786-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-1.jpg",
+            "brand" : "Lee cooper",
+            "price" : "2399",
+            "rating" : "4.1"
+        },
+        {
+            "id" : "24",
+            "product_name" : "Rare rabbit men black shirt",
+            "img" : "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/19818628/2022/9/6/ec27eee6-d613-4423-8e0f-007aea1603c31662468109188Shirts1.jpg",
+            "brand" : "Rare rabbit",
+            "price" : "2899",
+            "rating" : "4.5"
+        },
+        {
+            "id" : "25",
+            "product_name" : "Gap navy blue men tshirt ",
+            "img" : "https://assets.ajio.com/medias/sys_master/root/20221012/5Uln/6346a6b0f997ddfdbd2350d1/-473Wx593H-441539112-navy-MODEL.jpg",
+            "brand" : "Rare rabbit",
+            "price" : "799",
+            "rating" : "4.8"
+        },
+        {
+            "id" : "26",
+            "product_name" : "Puma blue & white royal challengers graphic tshirt",
+            "img" : "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/17535054/2022/4/5/f13af7a3-61a9-46d8-9295-07fa7f9b7f5f1649150010849-Puma-Men-Tshirts-5631649150010438-1.jpg",
+            "brand" : "Rare rabbit",
+            "price" : "1399",
+            "rating" : "4.9"
+        },        
+
+        {
+            "id" : "27",
+            "product_name" : "Rare rabbit men white T-shirt",
+            "img" : "https://cdn.shopify.com/s/files/1/0752/6435/products/HERO_0eea9736-21d4-4ba2-9f63-b879af3eaa72.jpg?v=1668773548",
+            "brand" : "Rare rabbit",
+            "price" : "947",
+            "rating" : "4.5"
+        }
+
+    ]
+}

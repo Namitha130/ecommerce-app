@@ -1,0 +1,27 @@
+{
+  "usersdata": [
+    {
+      "id": 1,
+      "username": "Scott Mccall ",
+      "email": "scott@example.com",
+      "password": "scott@123",
+      "phone": "812357234",
+      "address": "#301 lakshmi krupa Rajajinagar",
+      "locality": "bangalore",
+      "dob": "10-01-1898",
+      "wishlist": []
+    },
+    {
+      "username": "Namitha T P",
+      "email": "itsnamitha130@gmail.com",
+      "phone": "8123578130",
+      "password": "Enfield@350",
+      "address": "#301 sri lakshmi krupa",
+      "locality": "Chitradurga",
+      "dob": "1999-01-12",
+      "id": 2,
+      "wishlist": []
+
+    }
+  ]
+}

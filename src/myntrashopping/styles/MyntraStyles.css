@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* Myntra shopping  */
+  /* -----------------navbar css------------ */
+  nav{
+    color: rgba(0, 0, 0, 0.936);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    position: sticky;
+    top: 0px;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.226);
+    
+   height: 40px;
+  }
+  #logo img{
+    width: 70px;
+    height: 50px;
+  }
+  #menu-bar ul
+  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  #menu-bar ul li{
+    list-style-type: none;
+    padding: 10px;
+  }
+  #menu-bar ul li a{
+    color :rgba(0, 0, 0, 0.763);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+  
+  }
+  #menu-bar ul li a sup{
+    color: #fb0567;
+    font-weight: bold;
+  }
+  #search-bar input{
+    width: 550px;
+    height: 40px;
+   
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 60px;
+    color: rgba(0, 0, 0, 0.413);
+    background-color: rgba(152, 148, 148, 0.18);
+    margin: 0px -10px 0px 30px;
+    border: none;
+  }
+  #search-bar input:focus{
+    border: 1px white solid ;
+    background-color: white;
+  }
+
+  #search-bar i{
+    font-size: 23px;
+    position: absolute;
+    top: 32px;
+    right: 890px;
+    color: rgba(0, 0, 0, 0.413);
+  }
+  #side-menu{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    color: rgba(0, 0, 0, 0.66);
+    margin-left: 20px;
+    
+  }
+  #side-menu a{
+    color: rgba(0, 0, 0, 0.66);
+    text-decoration: none;
+  }
+  #side-menu div i{
+    font-size: 22px;
+    margin: 5px 15px;
+    font-weight: lighter;
+   
+  }
+  #side-menu div h6{
+    margin-left: 12px;
+  }
+  #bag>h6{
+   padding-left: 6px;
+   
+  }
+ #hover-profile,#wishlist,#bag{
+  margin: 10px 5px 10px 5px;
+ 
+
+ }
+
+/* --------------------------Profile hide-out -------------------- */
+
+#hideout-profile-before,#hideout-profile-after
+{
+ width: 270px;
+ height: auto;
+ display: none;
+ text-align: left;
+ padding: 20px;
+ border: 1px solid gray;
+ position: absolute;
+ top: 60px;
+ right: 70px;
+ z-index: 5000;
+ background-color: white;
+}
+/* If hideout profile is sibling to profile */
+
+/* #hover-profile:hover~#hideout-profile{
+ display: block;
+} */
+#hover-profile:hover #hideout-profile-before{
+ display: block;
+}
+
+#hideout-profile-before:hover{
+ display: block;
+}
+
+#hover-profile:hover #hideout-profile-after{
+  display: block;
+ }
+ 
+ #hideout-profile-after:hover{
+  display: block;
+ }
+#hideout-profile-before a button{
+   width: 150px;
+   height: 35px;
+   display: inline-block;
+  border: 1px solid gray;
+  color: #fb058c;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: white;
+  margin: 10px auto;
+}
+#hideout-profile-before a button:active{
+  border: #fb058c 1px solid;
+}
+#hideout-profile-before hr , #hideout-profile-after hr{
+  width: 90%;
+  border: 0.1px solid rgba(128, 128, 128, 0.521);
+}
+  /* ------------------Home Style css----------------- */
+  .home{
+    padding: 20px 100px;
+  }
+  /*---------------------------- Productlist css----------------------------- */
+  .all-products{
+ 
+    width: 80vw;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .all-products a{
+    color: black;
+    text-decoration: none;
+  }
+  .product1{
+    width: 250px;
+    height: auto;
+    text-align: left;
+    padding: 12px;
+    
+    border-radius: 2px;
+
+  }
+  .product1 img{
+    width: 100%;
+  height: 250px;
+  border-radius: 6px;
+  }
+  #product1 h3{
+    font-size: 15px;
+    font-weight: normal;
+  }
+  #Add,#Remove{
+    font-size: 24px;
+    color: black;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    padding: 8px 10px;
+    z-index: 100;
+    display: none;
+    font-weight: lighter;
+    text-align: center;
+  }
+  #Remove,#wishlist-remove{
+    background-color: grey;
+    /* display: none; */
+  }
+  #Remove i,#wishlist-remove i{
+    color: #fb0567;
+  }
+ .product1:hover #Add{
+    display: block;
+   
+  }
+
+  .product1:hover #Remove{
+    display: block;
+   
+  }
+
+  #Add,#Remove i{
+      font-size: 25px;
+  }
+ 
+
+ 
+
+ /*--------------------- wishlist-page -------------*/
+
+ .wishlist-page{
+  padding: 20px;
+  margin: 50px;
+ }
+ .wishlist-page h1{
+  font-size: 18px;
+
+ }
+
+ /* ----------product Details page----------- */
+
+
+.product-component{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+ 
+
+}
+.product-image img{
+   
+    margin: 50px 100px 10px 100px;
+    width: 650px;
+    height: 600px;
+    
+}
+.product-content{
+  /* background-color: blueviolet; */
+  margin: 35px 0px 10px -30px;
+  padding: 20px 0px;
+  color: black;
+  width: 650px;
+  height: auto;
+}
+.product-content h2{
+  font-weight: bold;
+}
+
+.product-content h3{
+  font-weight: normal;
+  font-size: 20px;
+  color: grey;
+  margin-top: 5px;
+}
+.product-content p{
+  color: rgb(3, 196, 102);
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.product-content  h2>strike{
+  color: gray;
+  font-weight: normal;
+font-size: 20px;
+}
+/*------------------ size-selection-box------------------- */
+.size-selection-box 
+{
+  margin-top: 20px;
+}
+.size-selection-box div{
+  width: 50px;
+  height: 40px;
+  border: 1px solid #97969640;
+  border-radius: 50%;
+  display: inline-block; 
+  text-align: center;
+  margin: 20px 15px 20px 0px;
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+
+}
+.size-selection-box div:hover{
+  border: #fb0567 solid 1px;
+  
+}
+
+
+.bag-wishlist-div
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly ;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  height: 50px;
+} 
+.bag-wishlist-div .add-bag{
+  width: 350px;
+  height: 45px;
+  border: 1px solid #fb0567;
+  color: white;
+  text-align: center;
+  background-color: #fb0567;
+  padding: 5px 80px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+ border-radius: 5px;
+
+
+
+}
+.bag-wishlist-div .add-bag i,.bag-wishlist-div 
+#wishlist-remove i ,#wishlist-add i{
+  margin-right: 10px;
+  font-size: 20px;
+}
+ #wishlist-remove,#wishlist-add{
+  width: 250px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.324);
+  color: rgb(14, 13, 13);
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 18px;
+  
+}
+/*  -----------rating box in product details------- */
+.rate-box
+{
+  width: 130px;
+  border: 0.5px solid rgba(128, 128, 128, 0.463);
+  padding: 5px;
+  margin: 20px 0px;
+  height: auto;
+
+}
+.rate-box h5{
+  font-size: 16px;
+}
+.rate-box i{
+  color: rgb(5, 123, 94);
+}
+.rate-box span{
+  color: gray;
+  font-size: 14px;
+  font-weight: lighter;
+ 
+}
+
+/* -------------------Login and sign up page--------------- */
+.body{
+  background-color: rgba(255, 192, 203, 0.356);
+  text-align: center;
+}
+.signup-form,.login-form
+{
+  width: 600px;
+  height: auto;
+  margin: 50px auto ;
+  padding: 30px;
+ 
+}
+
+.signup-form form,.login-form form {
+  width: 350px;
+  height: auto;
+  padding: 15px;
+  border: 1px solid rgba(113, 111, 111, 0.614);
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+.signup-form form input ,.login-form form input{
+  width: 90%;
+  height: 25px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgba(8, 8, 8, 0.418);
+  border-radius: 10px;
+  font-size: 12px+2px;
+}
+.signup-form form input[type = "submit"],.login-form form input[type = "submit"]
+{
+  
+  font-size: 18px;
+  color: white;
+  background-color: #fb0567;
+  width: 96%;
+   height: 45px;  
+   font-weight: bold;
+
+}
+.signup-form button{
+  width: 100px;
+  height: 35px;
+  
+  margin: 10px auto;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: normal;
+}
+.signup-form button:hover ,.login-form button:hover{
+  border: solid 1px #fb0567;
+  background-color: white;
+}
+.signup-form input:focus ,.login-form input:focus{
+  transform: scale(1.05);
+}
+
+.signup-form span,.login-form span{
+  display: inline-block;
+  margin: 5px 10px;
+  
+}
+
+.signup-form h1,.login-form h1{
+  margin: 10px auto;
+  font-size: 30px;
+}
+.signup-form hr ,.login-form hr {
+  border: solid 1px rgb(135, 133, 133);
+}
+/* -------------Login page css----------- */
+.login-form button 
+{
+  width: 120px;
+  height: 35px;
+
+  margin: 10px auto;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: normal;
+
+}
